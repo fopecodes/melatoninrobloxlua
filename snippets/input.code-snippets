@@ -1,0 +1,51 @@
+{
+    "input.move": {
+      "prefix": "input.move",
+      "body": [
+        "input.move(${1:x}, ${2:y})"
+      ],
+      "description": "Move the mouse to the provided 2D coordinates"
+    },
+    "input.click": {
+      "prefix": "input.click",
+      "body": [
+        "input.click()"
+      ],
+      "description": "Simulates a left click"
+    },
+    "input.down": {
+      "prefix": "input.down",
+      "body": [
+        "input.down()"
+      ],
+      "description": "Simulates a right mouse button down"
+    },
+    "input.up": {
+      "prefix": "input.up",
+      "body": [
+        "input.up()"
+      ],
+      "description": "Simulates a right mouse button up"
+    },
+    "input.key_down": {
+      "prefix": "input.key_down",
+      "body": [
+        "input.key_down(${1:key})"
+      ],
+      "description": "Simulates a key down press"
+    },
+    "input.key_up": {
+      "prefix": "input.key_up",
+      "body": [
+        "input.key_up(${1:key})"
+      ],
+      "description": "Simulates a key up press"
+    },
+    "input.press": {
+      "prefix": "input.press",
+      "body": [
+        "input.press(${1:key})"
+      ],
+      "description": "Simulates a key press"
+    }
+  }

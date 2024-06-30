@@ -1,0 +1,44 @@
+{
+    "utility.log": {
+      "prefix": "utility.log",
+      "body": [
+        "utility.log(${1:message})"
+      ],
+      "description": "Log a string into the in game console"
+    },
+    "utility.random_int": {
+      "prefix": "utility.random_int",
+      "body": [
+        "utility.random_int(${1:min}, ${2:max})"
+      ],
+      "description": "Returns a random int between the min and the max value"
+    },
+    "utility.random_float": {
+      "prefix": "utility.random_float",
+      "body": [
+        "utility.random_float(${1:min}, ${2:max})"
+      ],
+      "description": "Returns a random float between the min and the max value"
+    },
+    "utility.world_to_screen": {
+      "prefix": "utility.world_to_screen",
+      "body": [
+        "utility.world_to_screen(${1:x}, ${2:y}, ${3:z})"
+      ],
+      "description": "Get 2D coordinates from a 3D point in space on screen"
+    },
+    "utility.key_state": {
+      "prefix": "utility.key_state",
+      "body": [
+        "utility.key_state(${1:key})"
+      ],
+      "description": "Returns the key state as a bool"
+    },
+    "utility.get_delta_time": {
+      "prefix": "utility.get_delta_time",
+      "body": [
+        "utility.get_delta_time()"
+      ],
+      "description": "Returns time elapsed since last frame in seconds using the overlay"
+    }
+  }

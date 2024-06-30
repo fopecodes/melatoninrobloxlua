@@ -1,0 +1,58 @@
+{
+    "render.text": {
+      "prefix": "render.text",
+      "body": [
+        "render.text(${1:x}, ${2:y}, ${3:r}, ${4:g}, ${5:b}, ${6:a}, ${7:font}, ${8:scale}, ${9:text})"
+      ],
+      "description": "Render text on screen with 2D coordinates"
+    },
+    "render.line": {
+      "prefix": "render.line",
+      "body": [
+        "render.line(${1:x1}, ${2:y2}, ${3:x2}, ${4:y2}, ${5:r}, ${6:g}, ${7:b}, ${8:a}, ${9:thickness})"
+      ],
+      "description": "Render a line from point x1,y1 to point x2,y2"
+    },
+    "render.rect_outline": {
+      "prefix": "render.rect_outline",
+      "body": [
+        "render.rect_outline(${1:x}, ${2:y}, ${3:w}, ${4:h}, ${5:r}, ${6:g}, ${7:b}, ${8:a})"
+      ],
+      "description": "Render a rect outline with 2D coordinates"
+    },
+    "render.rect": {
+      "prefix": "render.rect",
+      "body": [
+        "render.rect(${1:x}, ${2:y}, ${3:w}, ${4:h}, ${5:r}, ${6:g}, ${7:b}, ${8:a})"
+      ],
+      "description": "Render a filled rectangle with 2D coordinates"
+    },
+    "render.circle_outline": {
+      "prefix": "render.circle_outline",
+      "body": [
+        "render.circle_outline(${1:x}, ${2:y}, ${3:radius}, ${4:r}, ${5:g}, ${6:b}, ${7:a}, ${8:segments})"
+      ],
+      "description": "Render a circle outline with 2D coordinates"
+    },
+    "render.circle": {
+      "prefix": "render.circle",
+      "body": [
+        "render.circle(${1:x}, ${2:y}, ${3:radius}, ${4:r}, ${5:g}, ${6:b}, ${7:a}, ${8:segments})"
+      ],
+      "description": "Render a circle with 2D coordinates "
+    },
+    "renderer.triangle_outline": {
+      "prefix": "renderer.triangle_outline",
+      "body": [
+        "renderer.triangle_outline(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:r}, ${8:g}, ${9:b}, ${10:a})"
+      ],
+      "description": "Render a triangle outline with 2D coordinates"
+    },
+    "renderer.triangle": {
+      "prefix": "renderer.triangle",
+      "body": [
+        "renderer.triangle(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:r}, ${8:g}, ${9:b}, ${10:a})"
+      ],
+      "description": "Render a triangle with 2D coordinates"
+    }
+}

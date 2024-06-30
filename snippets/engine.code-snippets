@@ -1,0 +1,44 @@
+{
+    "engine.get_localplayer": {
+      "prefix": "engine.get_localplayer",
+      "body": [
+        "engine.get_localplayer()"
+      ],
+      "description": "Returns the entity index"
+    },
+    "engine.get_eye_angles": {
+      "prefix": "engine.get_eye_angles",
+      "body": [
+        "engine.get_eye_angles()"
+      ],
+      "description": "Returns x, y, z world coordinates of the local player's eye position"
+    },
+    "engine.get_view_angles": {
+      "prefix": "engine.get_view_angles",
+      "body": [
+        "engine.get_view_angles()"
+      ],
+      "description": "Returns x, y, z of the local player's view angles."
+    },
+    "engine.get_total_hits": {
+      "prefix": "engine.get_total_hits",
+      "body": [
+        "engine.get_total_hits()"
+      ],
+      "description": "Returns the total hits registered of the local player by the server as an int"
+    },
+    "engine.get_total_shots": {
+      "prefix": "engine.get_total_shots",
+      "body": [
+        "engine.get_total_shots()"
+      ],
+      "description": "Returns the total shots of the local player as an int"
+    },
+    "engine.get_crosshair_id": {
+      "prefix": "engine.get_crosshair_id",
+      "body": [
+        "engine.get_crosshair_id()"
+      ],
+      "description": "Returns the entity index of the entity under the crosshair"
+    }
+}

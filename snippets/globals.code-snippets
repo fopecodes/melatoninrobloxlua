@@ -1,0 +1,37 @@
+{
+    "globals.realtime": {
+      "prefix": "globals.realtime",
+      "body": [
+        "globals.realtime()"
+      ],
+      "description": "Returns the local time in seconds using the cheat"
+    },
+    "globals.curtime": {
+      "prefix": "globals.curtime",
+      "body": [
+        "globals.curtime()"
+      ],
+      "description": "Returns the game time in seconds, this number is synchronized with the server"
+    },
+    "globals.framecount": {
+      "prefix": "globals.framecount",
+      "body": [
+        "globals.framecount()"
+      ],
+      "description": "Returns the number of frames since the game started"
+    },
+    "globals.tickcount": {
+      "prefix": "globals.tickcount",
+      "body": [
+        "globals.tickcount()"
+      ],
+      "description": "Returns the number of ticks elapsed in the server"
+    },
+    "globals.map_name": {
+      "prefix": "globals.map_name",
+      "body": [
+        "globals.map_name()"
+      ],
+      "description": "Returns the current map name as a string"
+    }
+  }

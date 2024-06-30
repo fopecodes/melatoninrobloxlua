@@ -1,0 +1,37 @@
+{
+    "gui.get": {
+      "prefix": "gui.get",
+      "body": [
+        "gui.get(${1:item})"
+      ],
+      "description": "Get the UI element of the given ID"
+    },
+    "gui.set": {
+      "prefix": "gui.set",
+      "body": [
+        "gui.set(${1:item}, ${2:value})"
+      ],
+      "description": "Change the value of a UI element"
+    },
+    "gui.new_checkbox": {
+      "prefix": "gui.new_checkbox",
+      "body": [
+        "gui.new_checkbox(${1:name})"
+      ],
+      "description": "Create a new checkbox with a string as name"
+    },
+    "gui.new_slider": {
+      "prefix": "gui.new_slider",
+      "body": [
+        "gui.new_slider(${1:name}, ${2:min}, ${3:max})"
+      ],
+      "description": "Create a new slider with a minimum and a maximum int value"
+    },
+    "gui.new_hotkey": {
+      "prefix": "gui.new_hotkey",
+      "body": [
+        "gui.new_hotkey(${1:name}, ${2:key})"
+      ],
+      "description": "Create a new hotkey with a string as name"
+    }
+}

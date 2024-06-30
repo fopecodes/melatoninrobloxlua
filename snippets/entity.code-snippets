@@ -1,0 +1,135 @@
+{
+    "entity.get_players": {
+      "prefix": "entity.get_players",
+      "body": [
+        "entity.get_players()"
+      ],
+      "description": "Returns an array of player entities"
+    },
+    "entity.get_weapons": {
+      "prefix": "entity.get_weapons",
+      "body": [
+        "entity.get_weapons()"
+      ],
+      "description": "Returns an array of weapons on the ground entities"
+    },
+    "entity.get_projectiles": {
+      "prefix": "entity.get_projectiles",
+      "body": [
+        "entity.get_projectiles()"
+      ],
+      "description": "Returns an array of thrown grenade entities"
+    },
+    "entity.get_origin": {
+      "prefix": "entity.get_origin",
+      "body": [
+        "entity.get_origin(${1:address})"
+      ],
+      "description": "Returns x, y, z world coordinates of the entities origin"
+    },
+    "entity.get_mins": {
+      "prefix": "entity.get_mins",
+      "body": [
+        "entity.get_mins(${1:address})"
+      ],
+      "description": "Returns x, y, z minimum coordinates of the entities bounds"
+    },
+    "entity.get_maxs": {
+      "prefix": "entity.get_maxs",
+      "body": [
+        "entity.get_maxs(${1:address})"
+      ],
+      "description": "Returns x, y, z maximum coordinates of the entities bounds"
+    },
+    "entity.get_player_name": {
+      "prefix": "entity.get_player_name",
+      "body": [
+        "entity.get_player_name(${1:address})"
+      ],
+      "description": "Returns the player's name as a string"
+    },
+    "entity.get_bounding_box": {
+      "prefix": "entity.get_bounding_box",
+      "body": [
+        "entity.get_bounding_box(${1:address})"
+      ],
+      "description": "Returns x1, y1, x2, y2"
+    },
+    "entity.is_alive": {
+      "prefix": "entity.is_alive",
+      "body": [
+        "entity.is_alive(${1:address})"
+      ],
+      "description": "Returns true/false"
+    },
+    "entity.is_enemy": {
+      "prefix": "entity.is_enemy",
+      "body": [
+        "entity.is_enemy(${1:address})"
+      ],
+      "description": "Returns true/false"
+    },
+    "entity.get_health": {
+      "prefix": "entity.get_health",
+      "body": [
+        "entity.get_health(${1:address})"
+      ],
+      "description": "Return the entities health as an int"
+    },
+    "entity.get_velocity": {
+      "prefix": "entity.get_velocity",
+      "body": [
+        "entity.get_velocity(${1:address})"
+      ],
+      "description": "Returns the entities velocity as an int"
+    },
+    "entity.is_immune": {
+      "prefix": "entity.is_immune",
+      "body": [
+        "entity.is_immune(${1:address})"
+      ],
+      "description": "Returns bool"
+    },
+    "entity.bone_position": {
+      "prefix": "entity.bone_position",
+      "body": [
+        "entity.bone_position(${1:address})"
+      ],
+      "description": "Returns bone position"
+    },
+    "entity.get_address": {
+      "prefix": "entity.get_address",
+      "body": [
+        "entity.get_address(${1:address})"
+      ],
+      "description": "Returns a players address in memory"
+    },
+    "entity.get_player_pawn": {
+      "prefix": "entity.get_player_pawn",
+      "body": [
+        "entity.get_player_pawn(${1:address})"
+      ],
+      "description": "Returns a players pawn address in memory"
+    },
+    "entity.get_player_controller": {
+      "prefix": "entity.get_player_controller",
+      "body": [
+        "entity.get_player_controller(${1:address})"
+      ],
+      "description": "Returns a players controller address in memory"
+    },
+    "entity.get_player_weapon": {
+      "prefix": "entity.get_player_weapon",
+      "body": [
+        "entity.get_player_weapon(${1:address})"
+      ],
+      "description": "Return weapon from entity"
+    },
+    "entity.get_class_name": {
+      "prefix": "entity.get_class_name",
+      "body": [
+        "entity.get_class_name(${1:address})"
+      ],
+      "description": "Returns entity class name"
+    }
+}

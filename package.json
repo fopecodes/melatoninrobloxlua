@@ -1,0 +1,62 @@
+{
+  "name": "melatoninlua",
+  "displayName": "melatoninlua",
+  "description": "A snippit extension for the melatonin lua api",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "publisher": "ef",
+  "repository": {
+    "url": "https://github.com/kss306/melatoninlua",
+    "type": "git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/gui.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/cheat.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/engine.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/memory.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/vector.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/render.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/entity.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/globals.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/utility.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/input.code-snippets"
+      }
+    ]
+  }
+}

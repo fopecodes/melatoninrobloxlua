@@ -1,0 +1,93 @@
+{
+    "vector": {
+      "prefix": "vector",
+      "body": [
+        "vector(${1:x}, ${2:y}, ${3:z})"
+      ],
+      "description": "Create a vector with 3D coordinates"
+    },
+    "vector:is_equal": {
+      "prefix": "vector:is_equal",
+      "body": [
+        "vector:is_equal()"
+      ],
+      "description": "vector:is_equal"
+    },
+    "vector:is_zero": {
+      "prefix": "vector:is_zero",
+      "body": [
+        "vector:is_zero()"
+      ],
+      "description": "vector:is_zero"
+    },
+    "vector:to_angle": {
+      "prefix": "vector:to_angle",
+      "body": [
+        "vector:to_angle()"
+      ],
+      "description": "vector:to_angle"
+    },
+    "vector:scale": {
+      "prefix": "vector:scale",
+      "body": [
+        "vector:scale()"
+      ],
+      "description": "vector:scale"
+    },
+    "vector:length": {
+      "prefix": "vector:length",
+      "body": [
+        "vector:length()"
+      ],
+      "description": "vector:length"
+    },
+    "vector:length_2d": {
+      "prefix": "vector:length_2d",
+      "body": [
+        "vector:length_2d()"
+      ],
+      "description": "vector:length_2d"
+    },
+    "vector:square_length": {
+      "prefix": "vector:square_length",
+      "body": [
+        "vector:square_length()"
+      ],
+      "description": "vector:square_length"
+    },
+    "vector:square_length_2d": {
+      "prefix": "vector:square_length_2d",
+      "body": [
+        "vector:square_length_2d()"
+      ],
+      "description": "vector:square_length_2d"
+    },
+    "vector:dot_product": {
+      "prefix": "vector:dot_product",
+      "body": [
+        "vector:dot_product()"
+      ],
+      "description": "vector:dot_product"
+    },
+    "vector:dist_to": {
+      "prefix": "vector:dist_to",
+      "body": [
+        "vector:dist_to()"
+      ],
+      "description": "vector:dist_to"
+    },
+    "vector:unpack": {
+      "prefix": "vector:unpack",
+      "body": [
+        "vector:unpack()"
+      ],
+      "description": "vector:unpack"
+    },
+    "vector:normalize": {
+      "prefix": "vector:normalize",
+      "body": [
+        "vector:normalize()"
+      ],
+      "description": "vector:normalize"
+    }
+}
