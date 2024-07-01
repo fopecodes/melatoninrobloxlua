@@ -2,7 +2,7 @@
     "input.move": {
       "prefix": "input.move",
       "body": [
-        "input.move(${1:x}, ${2:y})"
+        "input.move(${1:int: x}, ${2:int: y})"
       ],
       "description": "Move the mouse to the provided 2D coordinates"
     },

@@ -2,28 +2,28 @@
     "utility.log": {
       "prefix": "utility.log",
       "body": [
-        "utility.log(${1:message})"
+        "utility.log(${1:string: message})"
       ],
       "description": "Log a string into the in game console"
     },
     "utility.random_int": {
       "prefix": "utility.random_int",
       "body": [
-        "utility.random_int(${1:min}, ${2:max})"
+        "utility.random_int(${1:int: min}, ${2:int: max})"
       ],
       "description": "Returns a random int between the min and the max value"
     },
     "utility.random_float": {
       "prefix": "utility.random_float",
       "body": [
-        "utility.random_float(${1:min}, ${2:max})"
+        "utility.random_float(${1:int: min}, ${2:int: max})"
       ],
       "description": "Returns a random float between the min and the max value"
     },
     "utility.world_to_screen": {
       "prefix": "utility.world_to_screen",
       "body": [
-        "utility.world_to_screen(${1:x}, ${2:y}, ${3:z})"
+        "utility.world_to_screen(${1:int: x}, ${2:int: y}, ${3:int: z})"
       ],
       "description": "Get 2D coordinates from a 3D point in space on screen"
     },

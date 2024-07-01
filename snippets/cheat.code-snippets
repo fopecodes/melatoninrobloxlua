@@ -2,7 +2,7 @@
     "Cheat callback": {
       "prefix": "cheat.set_callback",
       "body": [
-        "cheat.set_callback(${1:event}, ${2:function})"
+        "cheat.set_callback(${1:string: event}, ${2:function})"
       ],
       "description": "Create a callback for a CS Event. See event list on the melatonin docs"
     }

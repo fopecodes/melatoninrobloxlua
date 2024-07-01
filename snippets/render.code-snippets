@@ -2,56 +2,64 @@
     "render.text": {
       "prefix": "render.text",
       "body": [
-        "render.text(${1:x}, ${2:y}, ${3:r}, ${4:g}, ${5:b}, ${6:a}, ${7:font}, ${8:scale}, ${9:text})"
+        "render.text(${1:int: x}, ${2:int: y}, ${3:int: r}, ${4:int: g}, ${5:int: b}, ${6:int: a}, ${7:int: font}, ${8:bool: scale}, ${9:string: text})"
       ],
       "description": "Render text on screen with 2D coordinates"
     },
     "render.line": {
       "prefix": "render.line",
       "body": [
-        "render.line(${1:x1}, ${2:y2}, ${3:x2}, ${4:y2}, ${5:r}, ${6:g}, ${7:b}, ${8:a}, ${9:thickness})"
+        "render.line(${1:int: x1}, ${2:int: y2}, ${3:int: x2}, ${4:int: y2}, ${5:int: r}, ${6:g}, ${7:int: b}, ${8:int: a}, ${9:int: thickness})"
       ],
       "description": "Render a line from point x1,y1 to point x2,y2"
     },
     "render.rect_outline": {
       "prefix": "render.rect_outline",
       "body": [
-        "render.rect_outline(${1:x}, ${2:y}, ${3:w}, ${4:h}, ${5:r}, ${6:g}, ${7:b}, ${8:a})"
+        "render.rect_outline(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a})"
       ],
       "description": "Render a rect outline with 2D coordinates"
     },
     "render.rect": {
       "prefix": "render.rect",
       "body": [
-        "render.rect(${1:x}, ${2:y}, ${3:w}, ${4:h}, ${5:r}, ${6:g}, ${7:b}, ${8:a})"
+        "render.rect(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a})"
       ],
       "description": "Render a filled rectangle with 2D coordinates"
     },
     "render.circle_outline": {
       "prefix": "render.circle_outline",
       "body": [
-        "render.circle_outline(${1:x}, ${2:y}, ${3:radius}, ${4:r}, ${5:g}, ${6:b}, ${7:a}, ${8:segments})"
+        "render.circle_outline(${1:int: x}, ${2:int: y}, ${3:int: radius}, ${4:int: r}, ${5:int: g}, ${6:int: b}, ${7:int: a}, ${8:int: segments})"
       ],
       "description": "Render a circle outline with 2D coordinates"
     },
     "render.circle": {
       "prefix": "render.circle",
       "body": [
-        "render.circle(${1:x}, ${2:y}, ${3:radius}, ${4:r}, ${5:g}, ${6:b}, ${7:a}, ${8:segments})"
+        "render.circle(${1:int: x}, ${2:int: y}, ${3:int: radius}, ${4:int: r}, ${5:int: g}, ${6:int: b}, ${7:int: a}, ${8:int: segments})"
       ],
       "description": "Render a circle with 2D coordinates "
     },
-    "renderer.triangle_outline": {
-      "prefix": "renderer.triangle_outline",
+    "render.triangle_outline": {
+      "prefix": "render.triangle_outline",
       "body": [
-        "renderer.triangle_outline(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:r}, ${8:g}, ${9:b}, ${10:a})"
+        "render.triangle_outline(${1:int: x0}, ${2:int: y0}, ${3:int: x1}, ${4:int: y1}, ${5:int: x2}, ${6:int: y2}, ${7:int: r}, ${8:int: g}, ${9:int: b}, ${10:int: a})"
       ],
       "description": "Render a triangle outline with 2D coordinates"
     },
-    "renderer.triangle": {
-      "prefix": "renderer.triangle",
+    "render.triangle": {
+      "prefix": "render.triangle",
       "body": [
-        "renderer.triangle(${1:x0}, ${2:y0}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:r}, ${8:g}, ${9:b}, ${10:a})"
+        "render.triangle(${1:int: x0}, ${2:int: y0}, ${3:int: x1}, ${4:int: y1}, ${5:int: x2}, ${6:int: y2}, ${7:int: r}, ${8:int: g}, ${9:int: b}, ${10:int: a})"
+      ],
+      "description": "Render a triangle with 2D coordinates"
+    },
+    "render.gradient": {
+      "prefix": "render.gradient",
+      "body": [
+        
+        "render.gradient(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r1}, ${6:int: g1}, ${7:int: b1}, ${8:int: a1}, ${9:int: r2}, ${10:int: g2}, ${11:int: b2}, ${12:int: a2}, ${13:bool: ltr})",
       ],
       "description": "Render a triangle with 2D coordinates"
     }

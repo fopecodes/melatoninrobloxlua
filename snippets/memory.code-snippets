@@ -2,28 +2,28 @@
     "memory.read_byte": {
       "prefix": "memory.read_byte",
       "body": [
-        "memory.read_byte(${1:adress})"
+        "memory.read_byte(${1:byte: adress})"
       ],
       "description": "Read the memory"
     },
     "memory.read_int": {
       "prefix": "memory.read_int",
       "body": [
-        "memory.read_int(${1:address})"
+        "memory.read_int(${1:int: address})"
       ],
       "description": "Read the memory. Returns a int"
     },
     "memory.read_float": {
       "prefix": "memory.read_float",
       "body": [
-        "memory.read_float(${1:address})"
+        "memory.read_float(${1:float: address})"
       ],
       "description": "Read the memory. Returns a float"
     },
     "memory.read_vector": {
       "prefix": "memory.read_vector",
       "body": [
-        "memory.read_vector(${1:address})"
+        "memory.read_vector(${1:vector: address})"
       ],
       "description": "Read the memory. Returns a vector"
     },
@@ -37,7 +37,7 @@
     "memory.read_string": {
       "prefix": "memory.read_string",
       "body": [
-        "memory.read_string(${1:item})"
+        "memory.read_string(${1:string: item})"
       ],
       "description": "Read the memory. Returns a string"
     },
