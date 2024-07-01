@@ -1,8 +1,8 @@
 {
-    "engine.get_localplayer": {
-      "prefix": "engine.get_localplayer",
+    "engine.get_local_player": {
+      "prefix": "engine.get_local_player",
       "body": [
-        "engine.get_localplayer()"
+        "engine.get_local_player()"
       ],
       "description": "Returns the entity index"
     },
