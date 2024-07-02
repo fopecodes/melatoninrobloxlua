@@ -1,6 +1,12 @@
 
 # Change Log
 All notable changes to this project will be documented in this file.
+
+## [1.0.6] - 2024-07-01
+
+### Fixed
+
+- Fixed stuff like get_local_player and such
  
 ## [1.0.1] - 2024-07-01
    
