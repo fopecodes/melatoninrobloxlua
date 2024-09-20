@@ -1,0 +1,65 @@
+{
+    "ui.get": {
+      "prefix": "ui.get",
+      "body": [
+        "ui.get(${1:int: item})"
+      ],
+      "description": "Get the UI element of the given ID"
+    },
+    "ui.set": {
+      "prefix": "ui.set",
+      "body": [
+        "ui.set(${1:int: item}, ${2:value})"
+      ],
+      "description": "Change the value of a UI element"
+    },
+    "ui.new_checkbox": {
+      "prefix": "ui.new_checkbox",
+      "body": [
+        "ui.new_checkbox(${1:string: tab}, ${2:string: container}, ${3:string: name})"
+      ],
+      "description": "Create a new checkbox with a string as name"
+    },
+    "ui.new_slider": {
+      "prefix": "ui.new_slider",
+      "body": [
+        "ui.new_slider(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:int / float: min}, ${5:int / float: max})"
+      ],
+      "description": "Create a new slider with a minimum and a maximum int or float value"
+    },
+    "ui.new_hotkey": {
+      "prefix": "ui.new_hotkey",
+      "body": [
+        "ui.new_hotkey(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:int: key}, ${5:int: mode}, ${6:bool: inline})"
+      ],
+      "description": "Create a new hotkey with a string as name"
+    },
+    "ui.new_colorpicker": {
+      "prefix": "ui.new_colorpicker",
+      "body": [
+        "ui.new_colorpicker(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:int: r}, ${5:int: g}, ${6:int: b}, ${7:int: a}, ${8:bool: inline})"
+      ],
+      "description": "Create a new colorpicker"
+    },
+    "ui.new_input_text": {
+      "prefix": "ui.new_input_text",
+      "body": [
+        "ui.new_input_text(${1:string: tab}, ${2:string: container}, ${3:string: name})"
+      ],
+      "description": "Create a new text input"
+    },
+    "ui.reference": {
+      "prefix": "ui.reference",
+      "body": [
+        "ui.reference(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:int: r}, ${5:int: g}, ${6:int: b}, ${7:int: a}, ${8:bool: inline})"
+      ],
+      "description": "Returns the special value that can be passed into get and set to interact with menu element."
+    },
+    "ui.is_open": {
+      "prefix": "ui.is_open",
+      "body": [
+        "ui.is_open()"
+      ],
+      "description": "Returns true if the menu is open"
+    }
+}
