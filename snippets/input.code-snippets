@@ -1,29 +1,29 @@
 {
-    "input.move": {
-      "prefix": "input.move",
+    "input.mouse_move": {
+      "prefix": "input.mouse_move",
       "body": [
-        "input.move(${1:int: x}, ${2:int: y})"
+        "input.mouse_move(${1:int: x}, ${2:int: y})"
       ],
       "description": "Move the mouse to the provided 2D coordinates"
     },
-    "input.click": {
-      "prefix": "input.click",
+    "input.mouse_click": {
+      "prefix": "input.mouse_click",
       "body": [
-        "input.click()"
+        "input.mouse_click()"
       ],
       "description": "Simulates a left click"
     },
-    "input.down": {
-      "prefix": "input.down",
+    "input.mouse_down": {
+      "prefix": "input.mouse_down",
       "body": [
-        "input.down()"
+        "input.mouse_down()"
       ],
       "description": "Simulates a right mouse button down"
     },
-    "input.up": {
-      "prefix": "input.up",
+    "input.mouse_up": {
+      "prefix": "input.mouse_up",
       "body": [
-        "input.up()"
+        "input.mouse_up()"
       ],
       "description": "Simulates a right mouse button up"
     },
@@ -41,11 +41,18 @@
       ],
       "description": "Simulates a key up press"
     },
-    "input.press": {
-      "prefix": "input.press",
+    "input.key_press": {
+      "prefix": "input.key_press",
       "body": [
-        "input.press(${1:key})"
+        "input.key_press(${1:key})"
       ],
       "description": "Simulates a key press"
+    },
+    "input.cursor_position": {
+      "prefix": "input.cursor_position",
+      "body": [
+        "input.cursor_position()"
+      ],
+      "description": "Returns the x, y coordinates of the cursor."
     }
   }

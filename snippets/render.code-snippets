@@ -62,5 +62,19 @@
         "render.gradient(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r1}, ${6:int: g1}, ${7:int: b1}, ${8:int: a1}, ${9:int: r2}, ${10:int: g2}, ${11:int: b2}, ${12:int: a2}, ${13:bool: ltr})",
       ],
       "description": "Render a triangle with 2D coordinates"
+    },
+    "render.measure_text": {
+      "prefix": "render.measure_text",
+      "body": [
+        "render.measure_text(${1:int: font}, ${2:bool: scale},${3:string: text})"
+      ],
+      "description": "This will return the calculated width and height of the text."
+    },
+    "render.image": {
+      "prefix": "render.image",
+      "body": [
+        "render.image(${1:int: texture},${2:int: x}, ${3:int: y}, ${4:int: w}, ${5:int: h}, ${6:int: r}, ${7:int: g}, ${8:int: b}, ${9:int: a})",
+      ],
+      "description": "Render an image with 2D coordinates"
     }
 }
