@@ -1,7 +1,7 @@
 {
-  "name": "melatoninlua",
-  "displayName": "melatoninlua",
-  "description": "A snippit extension for the melatonin lua api",
+  "name": "melatoninrobloxlua",
+  "displayName": "melatoninrobloxlua",
+  "description": "A snippit extension for the melatonin roblox lua api",
   "version": "1.0.6",
   "engines": {
     "vscode": "^1.90.0"
@@ -10,16 +10,16 @@
     "Snippets"
   ],
   "icon": "icon.png",
-  "publisher": "ef",
+  "publisher": "fopecodes",
   "repository": {
-    "url": "https://github.com/kss306/melatoninlua",
+    "url": "https://github.com/fopecodes/melatoninrobloxlua",
     "type": "git"
   },
   "contributes": {
     "snippets": [
       {
         "language": "lua",
-        "path": "./snippets/gui.code-snippets"
+        "path": "./snippets/ui.code-snippets"
       },
       {
         "language": "lua",
@@ -27,11 +27,11 @@
       },
       {
         "language": "lua",
-        "path": "./snippets/engine.code-snippets"
+        "path": "./snippets/game.code-snippets"
       },
       {
         "language": "lua",
-        "path": "./snippets/memory.code-snippets"
+        "path": "./snippets/http.code-snippets"
       },
       {
         "language": "lua",
@@ -47,7 +47,7 @@
       },
       {
         "language": "lua",
-        "path": "./snippets/globals.code-snippets"
+        "path": "./snippets/json.code-snippets"
       },
       {
         "language": "lua",
@@ -56,6 +56,10 @@
       {
         "language": "lua",
         "path": "./snippets/input.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/file.code-snippets"
       }
     ]
   }
