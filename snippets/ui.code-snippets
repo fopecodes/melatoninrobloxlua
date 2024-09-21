@@ -48,6 +48,20 @@
       ],
       "description": "Create a new text input"
     },
+    "ui.new_dropdown": {
+      "prefix": "ui.new_dropdown",
+      "body": [
+        "ui.new_dropdown(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:table: options})"
+      ],
+      "description": "Creates a dropdown in the menu, has the ability to return a string as a value. Returns an item reference as a number, which can be used to interact with the element itself."
+    },
+    "ui.new_multiselect": {
+      "prefix": "ui.new_multiselect",
+      "body": [
+        "ui.new_multiselect(${1:string: tab}, ${2:string: container}, ${3:string: name}, ${4:table: options})"
+      ],
+      "description": "Creates a multiselect dropdown in the menu, has the ability to return a table containing names of selected options. Returns an item reference as a number, which can be used to interact with the element itself."
+    },
     "ui.reference": {
       "prefix": "ui.reference",
       "body": [

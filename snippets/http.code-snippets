@@ -1,0 +1,16 @@
+{
+    "http.get": {
+        "prefix": "http.get",
+        "body": [
+            "http.get(${1:string: url}, ${2:table: headers}, ${3:function: callback})"
+        ],
+        "description": "Makes a HTTP request with the method GET."
+    },
+    "http.post": {
+        "prefix": "http.post",
+        "body": [
+            "http.post(${1:string: url}, ${2:table: headers}, ${3:string: body}, ${4:function: callback})"
+        ],
+        "description": "Makes a HTTP request with the method POST."
+    }
+}

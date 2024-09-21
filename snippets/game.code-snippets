@@ -1,0 +1,51 @@
+{
+    "game.get_data_model": {
+        "prefix": "game.get_data_model",
+        "body": [
+            "game.get_data_model()"
+        ],
+        "description": "Returns an instance. Every place is represented by a data model, a hierarchy of objects that describe everything about the place."
+    },
+    "game.get_place_id": {
+        "prefix": "game.get_place_id",
+        "body": [
+            "game.get_place_id()"
+        ],
+        "description": "Returns the game's place id."
+    },
+    "game.get_workspace": {
+        "prefix": "game.get_workspace",
+        "body": [
+            "game.get_workspace()"
+        ],
+        "description": "Returns an Instance that's class is Workspace."
+    },
+    "game.get_players": {
+        "prefix": "game.get_players",
+        "body": [
+            "game.get_players()"
+        ],
+        "description": "Returns an Instance that's class is Players."
+    },
+    "game.get_local_player":{
+        "prefix": "game.get_local_player",
+        "body": [
+            "game.get_local_player()"
+        ],
+        "description": "Returns an instance to the local player."
+    },
+    "game.is_focused": {
+        "prefix": "game.is_focused",
+        "body": [
+            "game.is_focused()"
+        ],
+        "description": "Returns true if the game is in focus."
+    },
+    "game:": {
+        "prefix": "game:",
+        "body": [
+            "game:${1|get_children,get_descendants,get_class_name,get_name,find_first_child,find_first_child_of_class,is_a,get_string_value,get_number_value,get_int_value,set_number_value,set_int_value,get_position,get_velocity,get_mesh_id,get_move_direction,get_health,get_max_health,get_character,get_team,get_user_id|}"
+        ],
+        "description": "List of all game functions"
+    }
+}

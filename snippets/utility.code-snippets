@@ -4,7 +4,7 @@
       "body": [
         "utility.log(${1:string: message})"
       ],
-      "description": "Log a string into the in game console"
+      "description": "Log a string top left"
     },
     "utility.random_int": {
       "prefix": "utility.random_int",
@@ -40,5 +40,40 @@
         "utility.get_delta_time()"
       ],
       "description": "Returns time elapsed since last frame in seconds using the overlay"
+    },
+    "utility.get_tickcount": {
+      "prefix": "utility.get_tickcount",
+      "body": [
+        "utility.get_tickcount()"
+      ],
+      "description": "Returns the number of milliseconds that have elapsed since the system was started."
+    },
+    "utility.get_fingerprint": {
+      "prefix": "utility.get_fingerprint",
+      "body": [
+        "utility.get_fingerprint()"
+      ],
+      "description": "Returns a unique fingerprint of the users computer, this can be used to uniquely identify someone's computer."
+    },
+    "utility.get_clipboard": {
+      "prefix": "utility.get_clipboard",
+      "body": [
+        "utility.get_clipboard()"
+      ],
+      "description": "Returns the current contents of the users clipboard."
+    },
+    "utility.set_clipboard": {
+      "prefix": "utility.set_clipboard",
+      "body": [
+        "utility.set_clipboard(${1:string: content})"
+      ],
+      "description": "Set's the users clipboard to whatever content you specify."
+    },
+    "utility.load_image": {
+      "prefix": "utility.load_image",
+      "body": [
+        "utility.load_image(${1:string: image_file_content})"
+      ],
+      "description": "The image file content can be obtained from either a web request, or by using the file system to read the contents and passing it. This function should be called once per image as it will return a texture id. This can then be passed into any functions that support a texture id."
     }
   }

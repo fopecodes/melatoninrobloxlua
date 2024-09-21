@@ -1,0 +1,16 @@
+{
+    "json.stringify": {
+        "prefix": "json.stringify",
+        "body": [
+            "json.stringify(${1:table: items})"
+        ],
+        "description": "Returns the contents of the table in a JSON formatted string."
+    },
+    "json.parse": {
+        "prefix": "json.parse",
+        "body": [
+            "json.parse(${1:string: json})"
+        ],
+        "description": "Returns the contents of your JSON formatted string as a table, so that the contents are easily accessible."
+    }
+}

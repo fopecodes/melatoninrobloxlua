@@ -1,0 +1,16 @@
+{
+    "file.read": {
+        "prefix": "file.read",
+        "body": [
+            "file.read(${1:string: path})"
+        ],
+        "description": "Returns the contents of that file as a string."
+    },
+    "file.write": {
+        "prefix": "file.write",
+        "body": [
+            "file.write(${1:string: file}, ${2:string: new_content})"
+        ],
+        "description": "If the file written does not exist, it will be created with the content. However, if the file does exist it will be overwritten with the content."
+    }
+}
