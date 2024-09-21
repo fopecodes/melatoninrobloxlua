@@ -9,21 +9,21 @@
     "input.mouse_click": {
       "prefix": "input.mouse_click",
       "body": [
-        "input.mouse_click()"
+        "input.mouse_click(${1:int: button})"
       ],
       "description": "Simulates a left click"
     },
     "input.mouse_down": {
       "prefix": "input.mouse_down",
       "body": [
-        "input.mouse_down()"
+        "input.mouse_down(${1:int: button})"
       ],
       "description": "Simulates a right mouse button down"
     },
     "input.mouse_up": {
       "prefix": "input.mouse_up",
       "body": [
-        "input.mouse_up()"
+        "input.mouse_up(${1:int: button})"
       ],
       "description": "Simulates a right mouse button up"
     },
