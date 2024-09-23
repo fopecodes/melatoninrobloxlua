@@ -44,7 +44,7 @@
     "game:": {
         "prefix": "game:",
         "body": [
-            "game:${1|get_children,get_parent,get_descendants,get_class_name,get_name,find_first_child,find_first_child_of_class,is_a,get_string_value,get_number_value,get_int_value,set_number_value,set_int_value,get_position,get_velocity,get_mesh_id,get_move_direction,get_health,get_max_health,get_character,get_team,get_user_id|}(${2:...})"
+            "game:${1|get_children,get_parent,get_descendants,get_class_name,get_name,find_first_child,find_first_child_of_class,is_a,get_string_value,get_number_value,get_int_value,set_number_value,set_int_value,get_position,get_velocity,get_mesh_id,get_move_direction,get_health,get_max_health,get_character,get_team,get_user_id,get_color,set_color,get_size,set_size,get_material,set_material,get_textlabel_value,set_string_value|}(${2:...})"
         ],
         "description": "List of all game functions"
     }
