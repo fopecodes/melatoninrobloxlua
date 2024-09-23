@@ -2,7 +2,7 @@
   "name": "melatoninrobloxlua",
   "displayName": "melatoninrobloxlua",
   "description": "A snippet extension for the melatonin roblox lua api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.90.0"
   },
