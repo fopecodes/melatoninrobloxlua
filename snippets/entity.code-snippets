@@ -23,7 +23,7 @@
     "entity:":{
       "prefix": "entity:",
       "body": [
-        "entity:${1|get_position,get_name,get_bbox,is_alive,is_enemy,is_whitelisted,get_health,get_velocity,get_max_health,get_weapon,get_team|}()"
+        "entity:${1|get_position,get_name,get_bbox,is_alive,is_enemy,is_whitelisted,get_health,get_velocity,get_max_health,bone_position,bone_instance,get_weapon,get_team|}()"
       ],
       "description": "List of all entity functions"
     }
