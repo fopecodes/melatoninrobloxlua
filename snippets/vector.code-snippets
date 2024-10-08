@@ -9,7 +9,7 @@
   "vector:is_equal": {
     "prefix": "vector:",
     "body": [
-      "vector:${1|is_equal,is_zero,to_angle,scale,length,length_2d,square_length,square_length_2d,dot_product,dist_to,unpack,normalize|}(${2:...})"
+      "vector:${1|is_equal,is_zero,scale,length,length_2d,length_sqr,length_2f,dot,cross,dist_to,unpack,normalize|}(${2:...})"
     ],
     "description": "List of vector functions"
   }

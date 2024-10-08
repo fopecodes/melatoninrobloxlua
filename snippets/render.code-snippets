@@ -16,14 +16,14 @@
     "render.rect_outline": {
       "prefix": "render.rect_outline",
       "body": [
-        "render.rect_outline(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a})"
+        "render.rect_outline(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a}, ${9:int: rounding})"
       ],
       "description": "Render a rect outline with 2D coordinates"
     },
     "render.rect": {
       "prefix": "render.rect",
       "body": [
-        "render.rect(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a})"
+        "render.rect(${1:int: x}, ${2:int: y}, ${3:int: w}, ${4:int: h}, ${5:int: r}, ${6:int: g}, ${7:int: b}, ${8:int: a}, ${9:int: rounding})"
       ],
       "description": "Render a filled rectangle with 2D coordinates"
     },

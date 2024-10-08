@@ -14,8 +14,12 @@ All notable changes to this project will be documented in this file.
 - - get_color
 - - set_color
  
-## [1.0.3] - 2024-10-2
+## [1.0.4] - 2024-10-2
 - Added bone_instance and bone_position
+
+## [1.0.5] - 2024-10-8
+- Updated the render & vector api
+- Added ui.new_button
 
 ### Added
 -  Converted to support the melatonin roblox lua api
