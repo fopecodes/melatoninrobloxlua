@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file.
 - Added bone_instance and bone_position
 
 ## [1.0.5] - 2024-10-8
-- Updated the render & vector api
+- Updated the render, vector and game api
 - Added ui.new_button
 
 ### Added
