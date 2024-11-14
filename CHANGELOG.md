@@ -21,6 +21,9 @@ All notable changes to this project will be documented in this file.
 - Updated the render, vector and game api
 - Added ui.new_button
 
+## [1.0.6] - 2024-11-14
+- Added game:get_rotation()
+
 ### Added
 -  Converted to support the melatonin roblox lua api
  
