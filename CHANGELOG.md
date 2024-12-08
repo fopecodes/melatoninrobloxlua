@@ -24,6 +24,13 @@ All notable changes to this project will be documented in this file.
 ## [1.0.6] - 2024-11-14
 - Added game:get_rotation()
 
+## [1.0.7] - 2024-12-08
+- Added game:get_camera_pos()
+- Added game:get_button_position()
+- Added game:get_button_size()
+- Added game:get_textlabel_value()
+- Added game:set_string_value()
+
 ### Added
 -  Converted to support the melatonin roblox lua api
  
