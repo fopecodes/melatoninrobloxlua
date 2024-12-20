@@ -31,6 +31,11 @@ All notable changes to this project will be documented in this file.
 - Added game:get_textlabel_value()
 - Added game:set_string_value()
 
+## [1.0.8] - 2024-12-20
+- Added game:get_hold_duration()
+- Added game:set_hold_duration()
+- Added game:get_frame_visible()
+
 ### Added
 -  Converted to support the melatonin roblox lua api
  
